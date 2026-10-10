@@ -1,0 +1,32 @@
+DATASETS USED FOR THE PAPER
+===========================
+
+1. nuScenes mini
+   Official download:
+   https://www.nuscenes.org/nuscenes
+
+   Expected extracted location:
+   data/nuscenes/v1.0-mini/
+
+   Used for official mAP and NDS evaluation.
+
+2. PandaSet
+   Official download:
+   https://scale.com/open-datasets/pandaset
+
+   Expected extracted location:
+   data/pandaset/
+
+   Used for the six-camera hold-out center-matching experiment
+   and the range and occupancy analysis.
+
+The included result JSON files and hold-out information pickle
+allow the saved predictions to be evaluated without downloading
+the raw datasets again.
+
+Raw datasets and model checkpoints are not included in this repository.
+The original model repositories and compatible configurations are
+needed to repeat inference or training from scratch.
+
+KITTI, WoodScape, and the custom vehicle recordings are not used
+in the reported experiments in this repository.
