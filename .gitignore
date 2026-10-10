@@ -1,0 +1,9 @@
+*.pth
+*.pkl.gz
+work_dirs/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+ckpts/
+data/
