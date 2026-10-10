@@ -1,0 +1,11 @@
+=== BEVFormer vs YOLO (one-to-one, no hardcoding) ===
+Dataset: custom 1793 frames
+Metric: each 3D pred matches at most one YOLO box
+
+score>=0.20:  preds=2303  TP=1363  precision=59.2%
+score>=0.25:  preds=1304  TP=913   precision=70.0%
+score>=0.30:  preds=786   TP=592   precision=75.3%   <- recommended
+score>=0.35:  preds=527   TP=408   precision=77.4%
+score>=0.50:  preds=191   TP=158   precision=82.7%
+
+BEVDet-CBGS (score>=0.20): preds=23218 TP=200 precision=0.9%

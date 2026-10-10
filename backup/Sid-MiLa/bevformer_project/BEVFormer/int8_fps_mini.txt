@@ -1,0 +1,5 @@
+=== INT8 FPS (mini) ===
+Checkpoint: bevformer_r101_dcn_24ep_INT8_optimized.pth
+FPS: 1.65
+Latency: 606.1 ms
+Note: Accuracy same as FP32; no speedup in PyTorch runtime

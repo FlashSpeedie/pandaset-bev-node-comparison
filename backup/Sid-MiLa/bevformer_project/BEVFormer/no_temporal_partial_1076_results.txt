@@ -1,0 +1,8 @@
+=== No-Temporal ablation partial val 1076 ===
+mAP: 0.4151
+NDS: 0.4882
+mATE: 0.6857
+mASE: 0.2546
+mAOE: 0.3965
+mAVE: 0.7146
+mAAE: 0.1423

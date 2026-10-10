@@ -1,0 +1,7 @@
+=== LSS BEVDet-R50 FPS (mini) ===
+Date: 2026-07-28
+Config: configs/bevdet/bevdet-r50_clean.py
+Checkpoint: ckpts/bevdet-r50.pth
+FPS: 9.46
+Latency: 105.7 ms/frame
+Samples timed: 20

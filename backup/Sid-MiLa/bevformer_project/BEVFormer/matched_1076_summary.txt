@@ -1,0 +1,14 @@
+=== Matched evaluation: partial nuScenes val (1076 samples) ===
+Date: 2026-08-04
+
+VALID
+  LSS (BEVDet-R50)       mAP 0.2982  NDS 0.3376
+  Full method (BEVFormer) mAP 0.4151  NDS 0.4882
+
+NOT VALID as temporal ablation
+  queue_length=1 + video_test_mode=False produced identical predictions
+  to full temporal (same md5). Cause: partial 1076 is fragmented across
+  scenes, so temporal history is never available even with video_test_mode=True.
+
+Conclusion: spatial SPAT vs LSS gap is real and large on matched data.
+Temporal contribution needs contiguous sequences or retraining.

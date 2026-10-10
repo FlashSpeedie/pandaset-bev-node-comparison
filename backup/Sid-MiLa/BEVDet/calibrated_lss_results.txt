@@ -1,0 +1,13 @@
+=== Calibrated LSS (BEVDet-R50) on 1793-frame custom set ===
+Date: 2026-08-11
+Extrinsics: measured .mat files injected
+Checkpoint: ckpts/bevdet-r50.pth
+
+Uncalibrated:     TP=27   preds<=50m=931    precision=0.029  NDS=0.015
+Calibrated (all): TP=138  preds<=50m=16708  precision=0.008  NDS=0.005
+Calibrated (>=0.3): TP=61 preds<=50m=5221   precision=0.012  NDS=0.006
+
+BEVFormer (same set): TP=1838  preds<=50m=2303  precision=0.798  NDS=0.410
+
+=== Calibrated CBGS (bevdet-r50-cbgs.pth) ===
+TP=262  preds<=50m=23218  precision=0.0113  NDS=0.0073

@@ -1,0 +1,15 @@
+Place the datasets in the paths listed below.
+
+1. nuScenes mini
+   Download: https://www.nuscenes.org/nuscenes
+   Extract so that either of these exists:
+     BEVDet/data/nuscenes/v1.0-mini/
+     bevformer_project/BEVFormer/data/nuscenes/v1.0-mini/
+
+2. PandaSet
+   Download: https://scale.com/open-datasets/pandaset
+   Extract so that this exists:
+     datasets/pandaset/
+
+KITTI, WoodScape, the custom vehicle recordings, and the
+processed_frames image folders are not included.

@@ -1,0 +1,6 @@
+=== INT8 BEVFormer accuracy (mini) ===
+Checkpoint: bevformer_r101_dcn_24ep_INT8_optimized.pth
+Dataset: nuScenes mini val (81)
+mAP: 0.3689
+NDS: 0.4218
+Note: Essentially same as FP32 (0.3691 / 0.4216)

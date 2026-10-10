@@ -1,0 +1,13 @@
+=== LSS (BEVDet-R50) partial nuScenes val ===
+Date: 2026-08-04
+Config: configs/bevdet/bevdet-r50_clean.py
+Checkpoint: ckpts/bevdet-r50.pth
+Dataset: partial official val (blob01 only), 1076 samples with all 6 cams
+mAP: 0.2982
+NDS: 0.3376
+mATE: 0.7546
+mASE: 0.2862
+mAOE: 0.8124
+mAVE: 1.1502
+mAAE: 0.2620
+NOTE: Not full official val (~6019). Only samples whose camera files exist on disk.

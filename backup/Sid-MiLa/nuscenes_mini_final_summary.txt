@@ -1,0 +1,18 @@
+=== nuScenes mini FINAL summary ===
+Dataset: official nuScenes mini val (81 labeled samples)
+No custom dataset for main metrics
+
+ACCURACY
+Full BEVFormer (SPAT+TEMP):  mAP 0.3691 | NDS 0.4216
+No-temporal (queue_length=1): mAP 0.3691 | NDS 0.4216
+LSS BEVDet-R50:               mAP 0.2885 | NDS 0.2983
+
+SPEED
+Full BEVFormer:   FPS 1.74 | 573.9 ms/frame
+No-temporal:      FPS 1.75 | 570.9 ms/frame
+LSS BEVDet-R50:   FPS 9.46 | 105.7 ms/frame
+
+INTERPRETATION
+- Temporal on vs off: no accuracy or speed change on mini with this checkpoint.
+- LSS: ~5.4x faster than full BEVFormer, lower accuracy (mAP -0.08, NDS -0.12).
+- Main compute vs accuracy story is Full vs LSS, not temporal ablation.

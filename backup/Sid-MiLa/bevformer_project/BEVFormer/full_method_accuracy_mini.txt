@@ -1,0 +1,12 @@
+=== Full Method (SPAT + TEMP) accuracy ===
+Date: 2026-08-02
+Config: bevformer_base (via run_original.py)
+Checkpoint: ckpts/bevformer_r101_dcn_24ep.pth
+Dataset: nuScenes mini val (81 samples)
+mAP: 0.3691
+NDS: 0.4216
+mATE: 0.7196
+mASE: 0.4630
+mAOE: 0.6116
+mAVE: 0.5359
+mAAE: 0.2993

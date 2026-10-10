@@ -1,0 +1,7 @@
+=== BEVFormer-Small accuracy (mini) ===
+Config: bevformer_small.py
+Checkpoint: bevformer_small_epoch_24.pth
+Dataset: nuScenes mini val (81)
+mAP: 0.3544
+NDS: 0.3989
+Note: Modest drop vs FP32 full

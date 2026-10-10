@@ -1,0 +1,7 @@
+=== No-Temporal FPS (mini) ===
+Date: 2026-07-28
+Config: bevformer_no_temporal.py
+Checkpoint: bevformer_r101_dcn_24ep.pth
+FPS: 1.75
+Latency: 570.9 ms/frame
+Samples timed: 20

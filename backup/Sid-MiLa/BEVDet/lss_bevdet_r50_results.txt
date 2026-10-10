@@ -1,0 +1,13 @@
+=== LSS Baseline (BEVDet-R50) ===
+Date: 2026-07-28
+Config: configs/bevdet/bevdet-r50_clean.py
+Checkpoint: ckpts/bevdet-r50.pth
+Dataset: nuScenes mini val (81 samples)
+
+mAP:  0.2885
+NDS:  0.2983
+mATE: 0.7771
+mASE: 0.4750
+mAOE: 0.8132
+mAVE: 1.1110
+mAAE: 0.3946

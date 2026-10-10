@@ -1,0 +1,7 @@
+=== Full Method FPS (mini) ===
+Date: 2026-07-28
+Config: bevformer_base.py
+Checkpoint: bevformer_r101_dcn_24ep.pth
+FPS: 1.74
+Latency: 573.9 ms/frame
+Samples timed: 20

@@ -1,0 +1,4 @@
+=== Small FPS (mini) ===
+Checkpoint: bevformer_small_epoch_24.pth
+FPS: 2.40
+Latency: 416.4 ms
