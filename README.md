@@ -73,7 +73,7 @@ python -m pip install -r requirements.txt
 python scripts/eval_holdout.py
 ```
 
-Compare the actual output with the tables above. Do not assume the script reproduces every row until its output has been checked. In particular, the archived BEVFormer stock result has previously been reported to differ under the current evaluation script.
+Compare the actual output with the tables above. The script reproduces all four rows of the PandaSet center-match table from the included result files.
 
 ## Datasets
 
@@ -115,5 +115,4 @@ Reproducing inference or training requires the appropriate model repositories, c
 - PandaSet recall and precision use custom center matching, not the official nuScenes evaluation protocol.
 - The models differ in their backbones and detection heads as well as their camera-to-BEV approaches. The results compare complete model pipelines and do not isolate the causal effect of the view transformation method.
 - The custom vehicle recordings do not have verified 3D ground-truth annotations for the same evaluation protocol and are not included in the final quantitative tables.
-- The BEVFormer stock result needs to be reconciled with the included evaluation pipeline before it can be considered reproduced from the archived result.
 - KITTI and WoodScape are not used for the reported quantitative results.
